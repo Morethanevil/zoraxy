@@ -32,8 +32,7 @@ services:
        - /var/run/docker.sock:/var/run/docker.sock
 
      environment:
-       noauth: false
-       docker: true
+         ARGS: '-noauth=true'
 
 ```
 
